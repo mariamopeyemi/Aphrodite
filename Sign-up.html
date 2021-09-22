@@ -5,67 +5,65 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>APHRODITE-signUp</title>
-        <link link rel="stylesheet" href="styles.css">
+        <link link rel="stylesheet" href="./CSS/Sign-up.css">
 
     </head>
     <body>
-        <!--background image used in the website-->
-        <section class="hero-image">
-            <!--grid container for LHS and RHS items-->
-            <div class="grid-container">
+        
+        <!--grid container for LHS and RHS items-->
+        <section class="grid-container">
+           <!--background image used in the website--> 
+            <div class="img-container">
                 <div class="content">
-                    <h2><img src="images/img2.png"></h2>
-                    <p> Create an <br>
-                         account and experience <br>
-                          love and friendship
-                    </p>
-                    <h3> Get to see thousand of people based on your <br> preference anywhere and anytime on 
-                        <b>Aphrodite</b> 
-                    </h3>
+                    <img  id = "aphrodite" src="./Images/Logo1.png">
+                    
+                    <h2> Get to see thousand of people based on your <br>
+                        preferences anywhere and anytime on <span> Aphrodite </span>    
+                    </h2>
+
                     <h3>
-                        Already have an account? <a href="#">Sign in </a>
+                        Already have an account? <a href="#"> Sign in </a>
                     </h3>
-     
                  </div>
+            </div>
                 <!--beginning of RHS element-->
-                 <div class ="sign-up">
+                 <div class ="sign-up-form">
                       <!--top flex-items on the right hand side-->
-                     <div class="form-container">
-                         
-                     </div>
-                    <div id="top">
-                        <button id = "black">
+                     <div class="flex-container">
+                        <div id="top-left">
                             Create account 
-                        </button>
-                        <button id="white">
+                        </div>
+                        
+                        <a href="sign-in.html" id="sign-in">
                             Sign in
-                        </button>
-                    </div>
+                        </a>    
+                     </div>
+                        
                     <!--form container starts here-->
                    <form class="input-forms">
                         <div class="forms">
-                            <label for="Full Name">Full Name</label>
-                            <input type="text" id="Full Name" name="Full Name" required>
+                            <label for="Full Name">Full Name</label> <br>
+                            <input type="text" id="Full Name" name="Full Name" required> <br>
 
-                            <label for="Email Address">Email Address</label>
-                            <input type="email" id="Email Address" name="Email Address" required>
+                            <label for="Email Address">Email Address</label> <br>
+                            <input type="email" id="Email Address" name="Email Address" required> <br>
 
-                            <label for="psw">Password (<i>Enter atleast 8 characters</i>)</label>
-                            <input type="password" id="psw" name="Password" minlength="8" required>
+                            <label for="psw">Password <span id="form-span">(Enter atleast 8 characters)</span></label>
+                            <input type="password" id="psw" name="Password" minlength="8" placeholder = ""required> <br>
 
-                            <label for="psw-confirm">Confirm Password</label>
-                            <input type="password" name="psw-confirm" id="psw-confirm" minlength="8" required>
+                            <label for="psw-confirm">Confirm Password</label> <br>
+                            <input type="password" name="psw-confirm" id="psw-confirm" minlength="8" required> <br>
 
                             <input type="submit" value="Create new account">
-                            <p>By signing up, i agree to the QNET 
-                                <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank"> Privacy Policy </a>
-                            </p>
-                        </div>
-                        
+                        </div>  
                     </form>
                     <!--end of forms--> 
+
+                    <p>By signing up, I agree to the QNET 
+                        <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank"> Privacy Policy </a>
+                    </p>
                 </div>     
-            </div>
+            
             
         </section> 
     </body>
