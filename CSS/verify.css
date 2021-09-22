@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+
+/* div container*/
+.container {
+  height: 400px;
+}
+
+/* nav-bar section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(151, 8, 8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+}
+header img {
+  height: 5vh;
+  width: 9vw;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.header ul li a:hover {
+  color: sandybrown;
+}
+.welcome {
+  font-size: 1rem;
+}
+
+h2 {
+  color: orangered;
+  margin-top: 3rem;
+}
+
+li a btn {
+  border-radius: 6px;
+}
+
+/*This is the main page*/
+.main {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+/* main page button*/
+button {
+  width: 15%;
+  padding: 17px;
+  margin-top: 20px;
+  margin-bottom: 10rem;
+  background: orangered;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: medium;
+}
