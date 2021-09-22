@@ -67,6 +67,10 @@ html{
     border: #ff5400;
     border-radius: 0.8rem;
 }
+.hero-content button a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
 .section-one{
     display: flex;
     justify-content: center;
