@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/profile.css">
+    <link rel="stylesheet" href="./CSS/profile_media_query.css">
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <ul class="nav-bar-items">
+                    <li>
+                        <a href="#"><img src="./Images/Logo1.png" alt="aphrodite logo"></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="greeting">welcome abdulroqeeb</span>
+                            <i class="fas fa-arrow-left"></i>sign out</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <article class="uplaod">
+                <p class="upload-info">Add three of your your coolest picture and get people liking.</p>
+                <div class="upload-image-container">
+                    <div class="upload-image camera-input-container">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="upload-image file-input-container">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="information">
+                <form>
+                    <p>Please fill your details. this will take a few seconds.</p>
+                    <div class="form-container">
+                        <div class="form-group-container-1">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" name="username" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Age</label>
+                                <input type="number" name="age" id="age">
+                            </div>
+                            <div class="form-group">
+                                <label for="bio">Bio</label>
+                                <input type="text" name="bio" id="bio">
+                            </div>
+                        </div>
+                        <div class="form-group-container-2">
+                            <div class="form-group">
+                                <label for="location">Location</label>
+                                <input type="text" name="location" id="location">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <input type="text" name="gender" id="gender">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone number</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="verify.html" class="btn">Next</a>
+                </form>
+            </article>
+        </section>
+
+    </div>
+</body>
+
+</html>

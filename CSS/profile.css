@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Poppins", serif;
+    font-size: 16.4px;
+    font-weight: 500;
+    line-height: 1.4;
+    background-color: #fff;
+}
+
+
+/* Utilities */
+
+.container {
+    max-width: 90rem;
+}
+
+nav {
+    background: #8a0000;
+    height: 5rem;
+    width: 105%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+li a>img {
+    width: 10rem;
+    color: #fff;
+    margin: 1rem 3rem;
+}
+
+li:nth-child(2) {
+    margin: 2rem 3rem;
+}
+
+li:nth-child(2) i {
+    padding: 0 0.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ff5400;
+}
+
+a>span {
+    color: #fff;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 8rem;
+}
+
+.upload-info {
+    margin: 1rem;
+    line-height: 2;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.upload-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    font-size: 4.375rem;
+}
+
+.upload-image {
+    width: 6.4581rem;
+    height: 5.9138rem;
+    background: #eaeaea;
+    border-radius: 0.3125rem;
+}
+
+.camera-input-container {
+    margin-left: 5rem;
+    position: relative;
+}
+
+.file-input-container {
+    margin-right: 5rem;
+    position: relative;
+}
+
+section .fas {
+    color: rgba(255, 84, 0, 0.6);
+    position: absolute;
+    top: 0.25rem;
+    left: 0.5625rem;
+    text-align: center;
+    font-size: 80px;
+}
+
+i.fa-plus {
+    font-size: 5.625rem;
+    margin-left: 0.125rem;
+}
+
+form {
+    width: 61.625rem;
+    height: 30.375rem;
+    border: 0.0625rem solid rgba(255, 84, 0, 0.6);
+    border-radius: 0.3125rem;
+    margin: 2rem;
+    position: relative;
+}
+
+form>p {
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    /* position: relative; */
+}
+
+form .form-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: -0.3rem;
+    font-weight: normal;
+    font-style: normal;
+    height: 1.875rem;
+    width: 9rem;
+    line-height: 1.875;
+}
+
+input {
+    display: inline-block;
+    width: 23.5rem;
+    height: 3.25rem;
+    background: #ededed;
+    border: 0.0625rem solid #9b9b9b;
+    box-sizing: border-box;
+    border-radius: 0.3125rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    position: absolute;
+    width: 9.625rem;
+    height: 3.375rem;
+    left: 46.875rem;
+    top: 25rem;
+    background: #ff5400;
+    border-radius: 0.3125rem;
+    color: #fff;
+    border: none;
+    text-align: center;
+    line-height: 3;
+}
+
+.btn:focus {
+    outline: none;
+}
