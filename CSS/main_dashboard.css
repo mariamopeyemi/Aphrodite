@@ -1,0 +1,116 @@
+body{
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 50px 1fr 50px;
+        padding: 10px;
+    }
+    .container div{
+        background: #f8f8f8
+    }
+    .header{
+        display: grid;
+        padding: 10px;
+        background: #f8f8f8;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .signout{
+        grid-column: 3;        
+    }
+            .logo{
+                grid-column: 1;
+            }
+    .btn-editPro{
+        height: 30px;
+        padding-right: 20px;
+    }
+    .btn-prem{
+        height: 30px;
+    }
+    .aside{
+        grid-column: 1/2;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .aside img{
+        border-radius: 50%;
+    }
+    .list-item ul{
+        list-style-type: none;
+        list-style: none;
+        line-height: 50px;
+       
+    }
+   
+    .content1{
+        padding: 20px; 
+        grid-column: 2/3;
+    }
+    .content1 img{
+        height: 400px;
+        border-radius: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .bio{
+        
+         grid-column: 3/4;
+         padding: 20px;
+         background: #f2f2f2;
+         border-radius: 5px 0px 0px 5px;
+    }
+    .btn-connect{
+        background: #ff0000;
+        color: white;
+        height: 30px;
+    }
+    .btn-report{
+        height: 30px;
+    }
+    .btn-profile{
+    align-content: center;
+    }
+    .btn-next{
+        /* background: black; */
+        color: rgb(236, 15, 15);
+        position: absolute;
+        left: 600px;
+        top: 430px;
+        height: 30px;
+        width: 50px;
+    }
+    .btn-back{
+        position: absolute;
+        left: 750px;
+        top: 430px;
+        height: 30px;
+        width: 50px;
+        background: #000;
+        color: #f8f8f8;
+     }
+   
+
+    .footer{
+        grid-column: 1/4;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-links{
+        line-height: 50px;
+        font-size: 25px;
+        font-weight: 200px;
+        word-spacing: 30px;
+    }
+    .footer-copy{
+        font-size: 20px;
+    }
