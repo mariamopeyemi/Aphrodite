@@ -1,70 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>APHRODITE-signUp</title>
-        <link link rel="stylesheet" href="./CSS/Sign-up.css">
 
-    </head>
-    <body>
-        
-        <!--grid container for LHS and RHS items-->
-        <section class="grid-container">
-           <!--background image used in the website--> 
-            <div class="img-container">
-                <div class="content">
-                    <img  id = "aphrodite" src="./Images/Logo1.png">
-                    
-                    <h2> Get to see thousand of people based on your <br>
-                        preferences anywhere and anytime on <span> Aphrodite </span>    
-                    </h2>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APHRODITE-signUp</title>
+    <link link rel="stylesheet" href="./CSS/Sign-up.css">
 
-                    <h3>
-                        Already have an account? <a href="login.html"> Sign in </a>
-                    </h3>
-                 </div>
+</head>
+
+<body>
+
+    <!--grid container for LHS and RHS items-->
+    <section class="grid-container">
+        <!--background image used in the website-->
+        <div class="img-container">
+            <div class="content">
+                <img id="aphrodite" src="./Images/Logo1.png">
+
+                <h2> Get to see thousand of people based on your <br> preferences anywhere and anytime on <span> Aphrodite </span>
+                </h2>
+
+                <h3>
+                    Already have an account? <a href="login.html"> Sign in </a>
+                </h3>
             </div>
-                <!--beginning of RHS element-->
-                 <div class ="sign-up-form">
-                      <!--top flex-items on the right hand side-->
-                     <div class="flex-container">
-                        <div id="top-left">
-                            Create account 
-                        </div>
-                        
-                        <a href="login.html" id="sign-in">
+        </div>
+        <!--beginning of RHS element-->
+        <div class="sign-up-form">
+            <!--top flex-items on the right hand side-->
+            <div class="flex-container">
+                <div id="top-left">
+                    Create account
+                </div>
+
+                <a href="login.html" id="sign-in">
                             Sign in
-                        </a>    
-                     </div>
-                        
-                    <!--form container starts here-->
-                   <form class="input-forms">
-                        <div class="forms">
-                            <label for="Full Name">Full Name</label> <br>
-                            <input type="text" id="Full Name" name="Full Name" required> <br>
+                        </a>
+            </div>
 
-                            <label for="Email Address">Email Address</label> <br>
-                            <input type="email" id="Email Address" name="Email Address" required> <br>
+            <!--form container starts here-->
+            <form class="input-forms">
+                <div class="forms">
+                    <label for="Full Name">Full Name</label> <br>
+                    <input type="text" id="Full_Name" name="Full Name" required>
+                    <p class="nameError"></p> <br>
 
-                            <label for="psw">Password <span id="form-span">(Enter atleast 8 characters)</span></label>
-                            <input type="password" id="psw" name="Password" minlength="8" placeholder = ""required> <br>
+                    <label for="Email Address">Email Address</label> <br>
+                    <input type="email" id="Email_Address" name="Email Address" required>
+                    <p class="EmailError"></p> <br>
 
-                            <label for="psw-confirm">Confirm Password</label> <br>
-                            <input type="password" name="psw-confirm" id="psw-confirm" minlength="8" required> <br>
+                    <label for="psw">Password <span id="form-span">(Enter atleast 8 characters)</span></label>
+                    <input type="password" id="psw" name="Password" minlength="8" placeholder="" required>
+                    <p class="passwordError"></p> <br>
 
-                            <input type="submit" value="Create new account">
-                        </div>  
-                    </form>
-                    <!--end of forms--> 
+                    <label for="psw-confirm">Confirm Password</label> <br>
+                    <input type="password" name="psw-confirm" id="psw_confirm" minlength="8" required>
+                    <p class="confirmPasswordError"></p> <br>
 
-                    <p>By signing up, I agree to the QNET 
-                        <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank"> Privacy Policy </a>
-                    </p>
-                </div>     
-            
-            
-        </section> 
-    </body>
-    </html>
+                    <input onclick="registerNewUser()" type="button" value="Create new account">
+                </div>
+            </form>
+            <!--end of forms-->
+
+            <p>By signing up, I agree to the QNET
+                <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank"> Privacy Policy </a>
+            </p>
+        </div>
+
+
+    </section>
+    <script src="/javascript/Sign-UpAuth.js"></script>
+</body>
+
+</html>

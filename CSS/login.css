@@ -1,83 +1,97 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     max-width: 100%;
 }
 
+
 /* ***************Main section */
-main{
+
+main {
     display: flex;
-    background-color:white;
+    background-color: white;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-button{
+
+#sign_in_button {
     background-color: #f54000;
     cursor: pointer;
+    font-size: 25px;
 }
+
 
 /******First session in main */
 
-section.first-section{
-    background-image:url(/Images/COUPLEPICTURE.png);
+section.first-section {
+    background-image: url(/Images/COUPLEPICTURE.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     flex: 1;
 }
-.first-section img{
+
+.first-section img {
     width: 70px;
     margin-left: 10px;
     /* margin-top: 7%; */
 }
-.section-text{
+
+.section-text {
     width: 600px;
     margin-top: 35%;
     margin-left: 20%;
 }
-.section-text h1{
+
+.section-text h1 {
     font-size: 40px;
     padding-bottom: 20px;
 }
 
-.section-text #coloured{
+.section-text #coloured {
     color: #f54000;
 }
 
-#myImage img{
+#myImage img {
     width: 300px;
 }
 
+
 /* *******Second session in main */
 
-section.second-section{
-     display: flex;
-     flex: 1;
-     color: rgb(187, 179, 179);
-     padding: auto;
-     align-items: center;
+section.second-section {
+    display: flex;
+    flex: 1;
+    color: rgb(187, 179, 179);
+    padding: auto;
+    align-items: center;
 }
-.sign-card{
+
+.sign-card {
     width: 500px;
     margin: auto;
 }
 
+
 /* **********form in second section card */
+
 form {
     margin-bottom: 20px;
     margin: auto;
     width: 90%;
 }
-#mediaLogin{
+
+#mediaLogin {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
-input{
+
+input {
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
@@ -86,44 +100,41 @@ input{
     background-color: #EDEDED
 }
 
-.sign-card p{
+.sign-card p {
     font-size: 25px;
-    margin-bottom: 25px  
+    margin-bottom: 25px
 }
-#in-button{
+
+#in-button {
     background-color: #f54000;
     color: white;
     cursor: pointer;
     border-style: hidden;
     box-shadow: none;
 }
-form #grey-color{
-    color:rgb(187, 179, 179);
+
+form #grey-color {
+    color: rgb(187, 179, 179);
 }
-form #not-grey{
+
+form #not-grey {
     color: black;
 }
-form img{
+
+form img {
     width: 50px;
 }
 
 
-
-
-
-
-
-
-
-
-
 /* ****Horizontal line before and after OR */
+
 
 /* #horizontal{
     width: 60%;
     margin-left: 50px;
     /* background-color: yellow; */
-   
+
+
 /* }
 #horizontal p {
     display: flex;
@@ -141,14 +152,16 @@ form img{
   }
   p:after {
     margin-left: 10px
-  } */ 
+  } */
 
-  /* **********buttons in form */
-  /* form button{
+
+/* **********buttons in form */
+
+
+/* form button{
     width: 80%;
     margin: 10px;
     padding: 10px;
     border-radius: 30px;
     color: white;
 } */
-
