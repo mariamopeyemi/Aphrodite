@@ -1,154 +1,156 @@
 <!Doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Aphrodite Dating Site</title>
-  <meta name="Match Making" content="SitePoint">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aphrodite Dating Site</title>
+    <meta name="Match Making" content="SitePoint">
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="css/messages.css">
+    <link rel="stylesheet" href="css/messages.css">
 
 </head>
 
 <body>
-  <!-- Main Content Here... -->
-  <div class="sidebar">
-    <div class="logo">
-        <img class="logo-img" src="images/messages_images/logo.png" alt="Aphrodite Logo">
+    <!-- Main Content Here... -->
+    <div class="sidebar">
+        <div class="logo">
+            <img class="logo-img" src="images/messages_images/logo.png" alt="Aphrodite Logo">
+        </div>
+        <div class="user-details">
+            <img src="images/messages_images/user.svg" alt="user-picture">
+            <div class="user-info">
+                <h3>Peter James</h3>
+                <p>Front-end developer</p>
+            </div>
+        </div>
+
+        <div class="profile-buttons">
+            <button>Edit Profile</button>
+            <button>Premium</button>
+        </div>
+        <a class="preference" href="#preferences">Edit preferences <img src="images/messages_images/edit.svg" alt="preference key"></a>
+        <a id="myBtn">Messages</a>
+        <a href="#Matched">Matched</a>
+        <a href="#Liked">Liked  You</a>
     </div>
-    <div class="user-details">
-        <img src="images/messages_images/user.svg" alt="user-picture">
-        <div class="user-info">
-            <h3>Peter James</h3>
-            <p>Front-end developer</p>
+
+    <div class="content">
+        <div class="signout"><i class="fas fa-arrow-left left-arrow"></i><a href="login.html"> sign out</a></div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body">
+                    <h2 class="modal-header">New Matches</h2>
+                </div>
+                <!-- Matches images -->
+                <div class="matches-images">
+                    <div class="">
+                        <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
+                        <p>Shade</p>
+                    </div>
+                    <div class="">
+                        <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
+                        <p>Anita</p>
+                    </div>
+                    <div class="">
+                        <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
+                        <p>Ogechi</p>
+                    </div>
+                    <div class="">
+                        <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
+                        <p>Imaobong</p>
+                    </div>
+                    <div class="">
+                        <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
+                        <p>Florence</p>
+                    </div>
+                    <div class="">
+                        <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
+                        <p>Chinenye</p>
+                    </div>
+                </div>
+                <!-- Matches images ends -->
+
+                <div class="search-div">
+                    <i class="fa fa-search"></i>
+                    <input class="search" type="text" name="" id="" placeholder="Search or start a new chat">
+                </div>
+
+
+                <!-- Messages begins -->
+                <div class="messages-holder">
+                    <div class="modal-body">
+                        <h2 class="modal-header">Messages</h2>
+                    </div>
+                </div>
+
+                <div class="message-content">
+                    <div class="message-wrap">
+                        <img src="images/messages_images/matches1.svg" alt="">
+                        <div class="message-word">
+                            <h4>Emmanuel</h4>
+                            <p>Hi there, why dont we hang out later,call me when you are free</p>
+                        </div>
+                        <p class="number">1</p>
+                    </div>
+                    <div class="message-wrap">
+                        <img src="images/messages_images/matches1.svg" alt="">
+                        <div class="message-word">
+                            <h4>Priscilla</h4>
+                            <p>You look kind of familiar, how are you? Hoping to know you more</p>
+                        </div>
+                        <p class="number">1</p>
+                    </div>
+                    <div class="message-wrap">
+                        <img src="images/messages_images/matches1.svg" alt="">
+                        <div class="message-word">
+                            <h4>Catherine</h4>
+                            <p>It's nice to make your acquaintance, would love to get to know you more</p>
+                        </div>
+                        <p class="number">2</p>
+                    </div>
+                    <div class="message-wrap">
+                        <img src="images/messages_images/matches1.svg" alt="">
+                        <div class="message-word">
+                            <h4>Bisola</h4>
+                            <p> It's nice to make your acquaintance, would love to get to know you more</p>
+                        </div>
+                        <p class="number">1</p>
+                    </div>
+                    <div class="message-wrap">
+                        <img src="images/messages_images/matches1.svg" alt="">
+                        <div class="message-word">
+                            <h4>Folashade</h4>
+                            <p>Folashade why dont we hang out later,call me when you are free</p>
+                        </div>
+                        <p class="number">2</p>
+                    </div>
+                    <div class="message-wrap">
+                        <img src="images/messages_images/matches1.svg" alt="">
+                        <div class="message-word">
+                            <h4>Bidemi</h4>
+                            <p>Bidemi why dont we hang out later,call me when you are free</p>
+                        </div>
+                        <p class="number">2</p>
+                    </div>
+                </div>
+                <!-- Messages ends -->
+            </div>
+
+
         </div>
+
     </div>
-
-    <div class="profile-buttons">
-        <button>Edit Profile</button>
-        <button>Premium</button>
-    </div>
-    <a class="preference" href="#preferences">Edit preferences <img src="images/messages_images/edit.svg" alt="preference key"></a>
-    <a id="myBtn" >Messages</a>
-    <a href="#Matched">Matched</a>
-    <a href="#Liked">Liked  You</a>
-  </div>
-  
-  <div class="content">
-    <div class="signout"><i class="fas fa-arrow-left left-arrow"></i>sign out</div>
-    <div id="myModal" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-body">
-          <h2 class="modal-header">New Matches</h2>
-        </div>
-        <!-- Matches images -->
-        <div class="matches-images">
-          <div class="">
-            <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
-            <p>Shade</p>
-          </div>
-          <div class="">
-            <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
-            <p>Anita</p>
-          </div>
-          <div class="">
-            <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
-            <p>Ogechi</p>
-          </div>
-          <div class="">
-            <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
-            <p>Imaobong</p>
-          </div>
-          <div class="">
-            <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
-            <p>Florence</p>
-          </div>
-          <div class="">
-            <img class="matches-img" src="images/messages_images/matches1.svg" alt="">
-            <p>Chinenye</p>
-          </div>
-        </div>  
-        <!-- Matches images ends -->
-
-        <div class="search-div">
-          <i class="fa fa-search"></i>
-          <input class="search" type="text" name="" id="" placeholder="Search or start a new chat">
-        </div>
-
-
-        <!-- Messages begins -->
-        <div class="messages-holder">
-          <div class="modal-body">
-            <h2 class="modal-header">Messages</h2>
-          </div>
-        </div>
-
-        <div class="message-content">
-          <div class="message-wrap">
-            <img src="images/messages_images/matches1.svg" alt="">
-            <div class="message-word">
-              <h4>Emmanuel</h4>
-              <p>Hi there, why dont we hang out later,call me when you are free</p>
-            </div>
-            <p class="number">1</p>
-          </div>
-          <div class="message-wrap">
-            <img src="images/messages_images/matches1.svg" alt="">
-            <div class="message-word">
-              <h4>Priscilla</h4>
-              <p>You look kind of familiar, how are you? Hoping to know you more</p>
-            </div>
-            <p class="number">1</p>
-          </div>
-          <div class="message-wrap">
-            <img src="images/messages_images/matches1.svg" alt="">
-            <div class="message-word">
-              <h4>Catherine</h4>
-              <p>It's nice to make your acquaintance, would love to get to know you more</p>
-            </div>
-            <p class="number">2</p>
-          </div>
-          <div class="message-wrap">
-            <img src="images/messages_images/matches1.svg" alt="">
-            <div class="message-word">
-              <h4>Bisola</h4>
-              <p> It's nice to make your acquaintance, would love to get to know you more</p>
-            </div>
-            <p class="number">1</p>
-          </div>
-          <div class="message-wrap">
-            <img src="images/messages_images/matches1.svg" alt="">
-            <div class="message-word">
-              <h4>Folashade</h4>
-              <p>Folashade why dont we hang out later,call me when you are free</p>
-            </div>
-            <p class="number">2</p>
-          </div>
-          <div class="message-wrap">
-            <img src="images/messages_images/matches1.svg" alt="">
-            <div class="message-word">
-              <h4>Bidemi</h4>
-              <p>Bidemi why dont we hang out later,call me when you are free</p>
-            </div>
-            <p class="number">2</p>
-          </div>
-        </div>
-        <!-- Messages ends -->
-      </div>
-
-    
-    </div>
-    
-  </div>
-  <script src="javascript/messages.js"></script>
+    <script src="javascript/messages.js"></script>
 </body>
+
 </html>

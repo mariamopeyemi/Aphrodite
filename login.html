@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,13 @@
     <title>Aphrodite Sign-in</title>
     <link rel="stylesheet" href="/CSS/login.css">
 </head>
+
 <body>
     <main>
         <section class="first-section">
-           <div id="myImage">
-                <img src="/Images/Logo1.png ">
-           </div>
+            <div id="myImage">
+                <a href="index.html"><img src="/Images/Logo1.png "></a>
+            </div>
             <div class="section-text">
                 <h1>Its match-up time</h1>
                 <p>Swipe through and get matched anywhere</p>
@@ -21,12 +23,14 @@
         </section>
         <section class="second-section">
             <div class="sign-card">
-                <form>  
+                <form>
                     <p id="not-grey">Login to your account to start matching</p>
                     <p>Email or Phone number</p>
-                    <input type="text">
+                    <input id="emailOrNumber" type="email">
+                    <p style="color: red;" class="signinEmailError"></p> <br>
                     <p>Password</p>
-                    <input type="password">
+                    <input id="password" type="password">
+                    <p style="color: red;" class="loginPasswordError"></p>
                     <h6>Forgot Password?</h6>
                     <div id="mediaLogin">
                         <p id="grey-color">Or <span id="not-grey">Login</span> with</p>
@@ -36,13 +40,15 @@
                             <img src="/Images/GOOGLELOGO.png">
                         </div>
                     </div>
-                    <a href="/messages.html"><input type="button" value="Sign In" id="in-button"></a>
+                    <input onclick="loginUser()" type="button" value="Sign In" id="sign_in_button">
                     <!-- <div id="horizontal">   -->
-                    
+
                 </form>
-             </div>
+            </div>
         </section>
 
     </main>
+    <script src="/javascript/loginAuth.js"></script>
 </body>
+
 </html>
