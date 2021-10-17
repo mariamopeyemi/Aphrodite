@@ -4,7 +4,8 @@ This is a match making app focused on bringing people together to build a lastin
 
 It is built using HTML, CSS, JavaScript, and Nodejs.
 
-I worked on the SRSD and FRD alongside my other team mates.
-I worked on the LOGIN PAGE by converting the figma document to code sing HTML, CSS, and JavaScript.
+The entire team worked on the SRSD and FRD.
+
+Mariam worked on the LOGIN PAGE by converting the figma document to code sing HTML, CSS, and JavaScript.
 
 The product is still in progress and would have an inapp messager, video call, voice call functionality.
